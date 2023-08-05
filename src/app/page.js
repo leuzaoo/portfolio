@@ -1,11 +1,11 @@
-import Navbar from "./components/Navbar";
-import Title from "./components/Title";
+import AboutMe from "./components/AboutMe";
+import Experiences from "./components/Experiences";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Title />
+      <AboutMe />
+      <Experiences />
     </>
   );
 }
