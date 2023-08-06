@@ -12,7 +12,7 @@ export default function Navbar() {
               <p className="text-sm">dev.lcostaoliveira@gmail.com</p>
             </div>
           </a>
-          <div className="flex items-center gap-10">
+          <div className="flex items-center gap-10 text-sm">
             <a href="https://www.linkedin.com/in/leonardo-costa/" target="_blank">LinkedIn</a>
             <a href="https://github.com/leuzaoo" target="_blank">GitHub</a>
             <a href="https://www.instagram.com/leuzaoo_/" target="_blank">Instagram</a>
