@@ -10,7 +10,7 @@ export default function AboutMe() {
       </div>
       <div className="text-center mt-10 text-4xl">
         <h1 className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-          Desenvolvedor Fullstack & UI
+          Desenvolvedor Fullstack & UI.
         </h1>
         <div className="flex w-full items-center justify-center mt-10">
           <a href="/projects">
