@@ -7,13 +7,13 @@ export default function Experiences() {
     <>
       <div className="mb-10">
         <div className="overflow-x-auto mt-10 flex items-center gap-14 px-10 bg-neutral-800 py-12 md:justify-center">
-          <Image src="/nextjs-logo.svg" width={40} height={40} alt=""/>
-          <Image src="/javascript-logo.svg" width={40} height={40} alt=""/>
-          <Image src="/nodejs-logo.svg" width={40} height={40} alt=""/>
-          <Image src="/figma-logo.svg" width={40} height={40} alt=""/>
-          <Image src="/react-logo.svg" width={40} height={40} alt=""/>
-          <Image src="/typescript-logo.svg" width={40} height={40} alt=""/>
-          <Image src="/vue-logo.svg" width={40} height={40} alt=""/>
+          <Image src="/nextjs-logo.svg" width={40} height={40} alt="" />
+          <Image src="/javascript-logo.svg" width={40} height={40} alt="" />
+          <Image src="/nodejs-logo.svg" width={40} height={40} alt="" />
+          <Image src="/figma-logo.svg" width={40} height={40} alt="" />
+          <Image src="/react-logo.svg" width={40} height={40} alt="" />
+          <Image src="/typescript-logo.svg" width={40} height={40} alt="" />
+          <Image src="/vue-logo.svg" width={40} height={40} alt="" />
         </div>
         <div className="mt-16">
           <p className="font-bold text-transparent text-center text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">

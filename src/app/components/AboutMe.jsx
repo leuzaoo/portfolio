@@ -6,8 +6,16 @@ export default function AboutMe() {
   return (
     <>
       <div className="flex flex-col items-center justify-center gap-4 w-full mt-10">
-        <Image alt="Leonardo's image" src="/me.jpg" width={120} height={120} className="rounded-full grayscale" />
-        <p className="text-neutral-200 font-semibold">Leonardo Oliveira, 23 - Brasil.</p>
+        <Image
+          alt="Leonardo's image"
+          src="/me.jpg"
+          width={120}
+          height={120}
+          className="rounded-full grayscale"
+        />
+        <p className="text-neutral-200 font-semibold text-xl">
+          Leonardo Oliveira, 23 - Brasil.
+        </p>
       </div>
       <div className="text-center mt-10 text-4xl">
         <h1 className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
