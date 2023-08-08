@@ -1,11 +1,12 @@
 import React from "react";
 import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 export default function AboutMe() {
   return (
     <>
       <div className="flex flex-col items-center justify-center gap-4 w-full mt-10">
-        <img src="me.jpg" width={120} className="rounded-full grayscale" />
+        <Image alt="Leonardo's image" src="/me.jpg" width={120} height={120} className="rounded-full grayscale" />
         <p className="text-neutral-200 font-semibold">Leonardo Oliveira, 23 - Brasil.</p>
       </div>
       <div className="text-center mt-10 text-4xl">
