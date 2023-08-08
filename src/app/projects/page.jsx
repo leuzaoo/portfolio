@@ -19,7 +19,7 @@ export default function ProjectsPage() {
           <a href="https://yhwconsulting.netlify.app/" target="_blank">
             <ButtonLink text="Ver Projeto" />
           </a>
-          <Popup title="HTML & SCSS" />
+          <Popup title="HTML & SCSS." />
         </div>
       </div>
 
@@ -30,12 +30,20 @@ export default function ProjectsPage() {
           usuário final e a outra para o admin cadastrar os produtos."
       />
 
-      <AboutProject
-        title="Catálogo de Produtos"
-        description="Uma plataforma onde através de uma Sheets do Google, a aplicação
-          consulta os produtos, preços e especificações. A Sheets funciona como
-          um banco de dados para essa aplicação."
-      />
+      <div>
+        <AboutProject
+          title="Catálogo de Produtos"
+          description="Uma plataforma onde através de uma Sheets do Google, a aplicação
+        consulta os produtos, preços e especificações. A Sheets funciona como
+        um banco de dados para essa aplicação."
+        />
+        <div className="mt-4 flex items-center justify-between">
+          <a href="https://aitrend.netlify.app/" target="_blank">
+            <ButtonLink text="Ver Projeto" />
+          </a>
+        <Popup title='JavaScript, Vue & Tailwind.' />
+        </div>
+      </div>
     </div>
   );
 }
