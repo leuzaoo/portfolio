@@ -1,6 +1,9 @@
 "use client";
 import React, { useState } from "react";
+import { Lobster } from "next/font/google";
 import Image from "next/image";
+
+const lobster = Lobster({ subsets: ["latin"] });
 
 function DeviceNavBar({ open }) {
   return (
@@ -54,6 +57,16 @@ export default function Navbar() {
         <DeviceNavBar open={open} setOpen={setOpen} />
         <div className="flex w-screen justify-between px-8">
           <div className="w-screen flex justify-between items-center">
+            <div>
+              <p>
+                portfolio<span>.</span>
+              </p>
+            </div>
+            <div className="flex">
+              <p></p>
+              <p>teste1</p>
+              <p>teste1</p>
+            </div>
             <div
               className="cursor-pointer z-50 flex w-8 h-5 flex-col justify-between items-center lg:hidden"
               onClick={() => {
