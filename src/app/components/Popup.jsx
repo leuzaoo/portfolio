@@ -15,7 +15,7 @@ export default function Popup({ title }) {
     <div>
       <Popover isLazy>
         <PopoverTrigger>
-          <Button className="static bg-gradient-to-r from-blue-700 to-blue-500 px-5 py-3 text-sm rounded-lg">
+          <Button className="static bg-gradient-to-r from-green-600 to-green-700 px-5 py-3 text-sm rounded-lg">
             Tecnologias
           </Button>
         </PopoverTrigger>
