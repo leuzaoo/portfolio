@@ -1,10 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import { Lobster, Kalam } from "next/font/google";
+import { Lobster } from "next/font/google";
 import Image from "next/image";
 
 const lobster = Lobster({ weight: "400", subsets: ["latin"] });
-const kalam = Kalam({ weight: "400", subsets: ["latin"] });
 
 function DeviceNavBar({ open }) {
   return (
@@ -87,7 +86,7 @@ export default function Navbar() {
                 </p>
               </a>
             </div>
-            <div className="hidden lg:flex items-center gap-10">
+            <div className="hidden lg:flex items-center gap-10 text-sm font-semibold">
               <a href="mailto:dev.lcostaoliveira@gmail.com">Contato</a>
               <a
                 href="https://www.linkedin.com/in/leonardo-costa/"
