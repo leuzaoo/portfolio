@@ -15,7 +15,7 @@ export default function Experiences() {
           <Image src="/typescript-logo.svg" width={40} height={40} alt="" />
           <Image src="/vue-logo.svg" width={40} height={40} alt="" />
         </div>
-        <div className="mt-16">
+        <div className="mt-16 px-5">
           <p className="font-bold text-transparent text-center text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
             Experiências além da Tecnologia.
           </p>

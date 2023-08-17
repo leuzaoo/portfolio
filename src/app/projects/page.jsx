@@ -41,9 +41,16 @@ export default function ProjectsPage() {
           <a href="https://aitrend.netlify.app/" target="_blank">
             <ButtonLink text="Ver Projeto" />
           </a>
-        <Popup title='JavaScript, Vue & Tailwind.' />
+          <Popup title="JavaScript, Vue & Tailwind." />
         </div>
       </div>
+
+      <AboutProject
+        title="Landing Page"
+        description="Realizei uma landing page sobre uma empresa onde o forte dela é o 
+        laboratório de metrologia. A mesma trabalha com fabricação de peças e dispositivos 
+        para controles dimensionais, escaneamento de peças e impressões 3D."
+      />
     </div>
   );
 }
