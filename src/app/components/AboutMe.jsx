@@ -14,7 +14,7 @@ export default function AboutMe() {
           className="rounded-full grayscale"
         />
         <p className="text-neutral-200 font-semibold text-xl">
-          Leonardo Oliveira, 23 - Brasil.
+          Leonardo Oliveira, 24 - Brasil.
         </p>
       </div>
       <div className="text-center mt-10 text-4xl">
