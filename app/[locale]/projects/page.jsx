@@ -1,8 +1,7 @@
 "use client";
-import React from "react";
-import ButtonLink from "../../components/ButtonLink";
-import Popup from "../../components/Popup";
-import AboutProject from "../../components/AboutProject";
+import AboutProject from "../components/AboutProject";
+import ButtonLink from "../components/ButtonLink";
+import Popup from "../components/Popup";
 
 export default function ProjectsPage() {
   return (
@@ -15,7 +14,7 @@ export default function ProjectsPage() {
           formações, como se fosse um currículo."
         />
 
-        <div className="mt-4 flex items-center justify-between">
+        <div className="mt-4 flex items-center justify-between md:justify-normal md:gap-10">
           <a href="https://yhwconsulting.netlify.app/" target="_blank">
             <ButtonLink text="Ver Projeto" />
           </a>
@@ -23,12 +22,17 @@ export default function ProjectsPage() {
         </div>
       </div>
 
-      <AboutProject
-        title="Ecommerce"
-        description="A aplicação que mais investi tempo e que abriu a minha mente para a
-          programação. Um comércio online. São duas aplicações, uma é voltada ao
-          usuário final e a outra para o admin cadastrar os produtos."
-      />
+      <div>
+        <AboutProject
+          title="Ecommerce"
+          description="A aplicação que mais investi tempo e que abriu a minha mente para a
+        programação. Um comércio online. São duas aplicações, uma é voltada ao
+        usuário final e a outra para o admin cadastrar os produtos."
+        />
+        <div className="mt-4">
+          <Popup title="MongoDB, NextJS, Express & AWS." />
+        </div>
+      </div>
 
       <div>
         <AboutProject
@@ -37,7 +41,7 @@ export default function ProjectsPage() {
         consulta os produtos, preços e especificações. A Sheets funciona como
         um banco de dados para essa aplicação."
         />
-        <div className="mt-4 flex items-center justify-between">
+        <div className="mt-4 flex items-center justify-between md:justify-normal md:gap-10">
           <a href="https://aitrend.netlify.app/" target="_blank">
             <ButtonLink text="Ver Projeto" />
           </a>
@@ -45,12 +49,17 @@ export default function ProjectsPage() {
         </div>
       </div>
 
-      <AboutProject
-        title="Landing Page"
-        description="Realizei uma landing page sobre uma empresa onde o forte dela é o 
+      <div>
+        <AboutProject
+          title="Landing Page"
+          description="Realizei uma landing page sobre uma empresa onde o forte dela é o 
         laboratório de metrologia. A mesma trabalha com fabricação de peças e dispositivos 
         para controles dimensionais, escaneamento de peças e impressões 3D."
-      />
+        />
+        <div className="mt-4">
+          <Popup title="React" />
+        </div>
+      </div>
     </div>
   );
 }
