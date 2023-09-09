@@ -6,11 +6,11 @@ import LangSwitcher from "./components/LangSwitcher";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <LangSwitcher />
       <AboutMe />
       <Experiences />
       <Footer />
-    </div>
+    </>
   );
 }
