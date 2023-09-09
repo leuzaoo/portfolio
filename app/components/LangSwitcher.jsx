@@ -5,19 +5,19 @@ import Image from "next/image";
 
 const languageOption = [
   {
-    name: "Português",
+    name: "pt-br",
     value: "ptBr",
     flag: br,
   },
   {
-    name: "United States",
+    name: "en-us",
     value: "enUS",
     flag: us,
   },
 ];
 
 export default function LangSwitcher() {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   return (
     <div className="flex gap-4 absolute right-10 top-24">
       {languageOption.map((languageOption) => (
@@ -32,6 +32,15 @@ export default function LangSwitcher() {
             src={languageOption.flag}
             alt={languageOption.name}
           />
+          <span
+            style={{
+              fontWeight:
+                i18n.language === languageOption.value ? "bold" : "normal",
+              color: i18n.language === languageOption.value ? "#fff" : "#666",
+            }}
+          >
+            {languageOption.name}
+          </span>
         </button>
       ))}
     </div>
