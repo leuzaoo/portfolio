@@ -5,12 +5,13 @@ import ButtonLink from "../components/ButtonLink";
 import Popup from "../components/Popup";
 
 import { useTranslation } from "react-i18next";
+import Footer from "../components/Footer";
 
 export default function ProjectsPage() {
   const { t } = useTranslation();
   return (
     <>
-      <div className="px-8 w-full flex flex-col lg:items-center lg:mx-auto">
+      <div className="pb-10 border-b border-neutral-600 px-8 w-full flex flex-col lg:items-center lg:mx-auto">
         <LangSwitcher />
         <div className="mt-10 lg:mt-20 lg:max-w-2xl">
           <AboutProject title="Portfolio" description={t("PortfolioDesc")} />
@@ -52,6 +53,9 @@ export default function ProjectsPage() {
             <Popup title="React" />
           </div>
         </div>
+      </div>
+      <div className="pt-10">
+        <Footer />
       </div>
     </>
   );
