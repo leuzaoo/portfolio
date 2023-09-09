@@ -1,5 +1,17 @@
 {
   "translation": {
-    "DesenvolvedorFullstack": "Fullstack Developer & UI."
+    "FullstackDeveloper": "Fullstack Developer & UI",
+    "NameAndCountry": "Leonardo Oliveira, 24y - Brazil",
+    "ProjectsButton": "Projects",
+    "Contact": "Contact",
+    "Experiences": "Experiences beyond technology",
+    "DesignIntuitiveEfficient": "Design of intuitive, efficient and attractive interfaces for users.",
+    "WebDevelopment": "Web Development",
+    "TransformingIdeasUniqueExperience": "Transforming ideas for a unique experience on both Web and Mobile.",
+    "SalesConsulting": "Sales & Consulting",
+    "DealingCustomerPurchase": "Dealing with the customer, post purchase, technical knowledge, among others.",
+    "DesignCreatives": "Design & Creatives",
+    "ConstructionArtsConnectingAudience": "Construction of arts with the aim of connecting with the audience.",
+    "TellAboutNextProject": "Tell me about your next project"
   }
 }

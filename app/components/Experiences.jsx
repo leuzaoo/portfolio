@@ -1,8 +1,10 @@
 import React from "react";
 import CardItem from "./CardItem";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 export default function Experiences() {
+  const { t } = useTranslation();
   return (
     <>
       <div className="mb-10">
@@ -17,32 +19,29 @@ export default function Experiences() {
         </div>
         <div className="mt-16 px-5">
           <p className="font-bold text-transparent text-center text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-            Experiências além da Tecnologia.
+            {t("Experiences")}
           </p>
         </div>
         <div className="px-4 pb-5 mt-10 flex gap-4 overflow-x-auto lg:justify-center">
           <div>
+            <CardItem title="UI & UX" text={t("DesignIntuitiveEfficient")} />
+          </div>
+          <div>
             <CardItem
-              title="UI & UX"
-              text="Design de interfaces intuitivas, eficientes e atrativas."
+              title={t("WebDevelopment")}
+              text={t("TransformingIdeasUniqueExperience")}
             />
           </div>
           <div>
             <CardItem
-              title="Desenvolvimento Web"
-              text="Tranformando ideias para uma experiência única tanto Web quanto Mobile."
+              title={t("SalesConsulting")}
+              text={t("DealingCustomerPurchase")}
             />
           </div>
           <div>
             <CardItem
-              title="Vendas & Consultoria"
-              text="Tratativa com o cliente, pós compra, conhecimento técnico, entre outros."
-            />
-          </div>
-          <div>
-            <CardItem
-              title="Design & Criativos"
-              text="Construção de artes com objetivo em conectar-se com a audiência."
+              title={t("DesignCreatives")}
+              text={t("ConstructionArtsConnectingAudience")}
             />
           </div>
         </div>

@@ -1,7 +1,9 @@
 "use client";
-import React, { useState } from "react";
-import { Lobster } from "next/font/google";
+import { useTranslation } from "react-i18next";
+import { useState } from "react";
 import Image from "next/image";
+
+import { Lobster } from "next/font/google";
 
 const lobster = Lobster({ weight: "400", subsets: ["latin"] });
 
@@ -50,6 +52,7 @@ function DeviceNavBar({ open }) {
 }
 
 export default function Navbar() {
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   return (
     <div>
@@ -87,7 +90,7 @@ export default function Navbar() {
               </a>
             </div>
             <div className="hidden lg:flex items-center gap-10 text-sm font-semibold">
-              <a href="mailto:dev.lcostaoliveira@gmail.com">Contato</a>
+              <a href="mailto:dev.lcostaoliveira@gmail.com">{t("Contact")}</a>
               <a
                 href="https://www.linkedin.com/in/leonardo-costa/"
                 target="_blank"

@@ -19,7 +19,7 @@ const languageOption = [
 export default function LangSwitcher() {
   const { t, i18n } = useTranslation();
   return (
-    <div className="absolute right-10 top-24">
+    <div className="flex gap-4 absolute right-10 top-24">
       {languageOption.map((languageOption) => (
         <button
           key={languageOption.value}

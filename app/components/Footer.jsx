@@ -1,12 +1,14 @@
 import { EnvelopeIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <div>
       <p className="font-semibold text-4xl px-4 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-        Me conte sobre seu Próximo Projeto.
+        {t("TellAboutNextProject")}
       </p>
       <div className="flex w-full items-center justify-center mt-10 pb-10 border-neutral-600 border-b">
         <a href="mailto: dev.lcostaoliveira@gmail.com">
