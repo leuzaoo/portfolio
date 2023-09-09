@@ -19,9 +19,15 @@ export default function Footer() {
         </a>
       </div>
       <div className="py-10 flex items-center justify-center gap-10 border-b border-neutral-600">
-        <Image src="/github-footer.svg" width={32} height={32} alt="" />
-        <Image src="/instagram-footer.svg" width={32} height={32} alt="" />
-        <Image src="/linkedin-footer.svg" width={32} height={32} alt="" />
+        <a href="https://github.com/leuzaoo" target="_blank">
+          <Image src="/github-footer.svg" width={32} height={32} alt="" />
+        </a>
+        <a href="https://www.instagram.com/leuzaoo_/" target="_blank">
+          <Image src="/instagram-footer.svg" width={32} height={32} alt="" />
+        </a>
+        <a href="https://www.linkedin.com/in/leonardo-costa/" target="_blank">
+          <Image src="/linkedin-footer.svg" width={32} height={32} alt="" />
+        </a>
       </div>
     </div>
   );
