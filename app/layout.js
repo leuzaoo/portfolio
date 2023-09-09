@@ -1,12 +1,14 @@
+"use client";
 import Navbar from "./components/Navbar";
-import "./globals.css";
-
 import { Inter } from "next/font/google";
+import "./globals.css";
+import "@/i18n";
+
 const inter = Inter({ subsets: ["latin"] });
 
-export default async function LocaleLayout({ children, params: { locale } }) {
+export default function RootLayout({ children }) {
   return (
-    <html lang={locale}>
+    <html>
       <body className={inter.className}>
         <Navbar />
         {children}
