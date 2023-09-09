@@ -9,14 +9,16 @@ import {
   PopoverCloseButton,
   Button,
 } from "@chakra-ui/react";
+import { useTranslation } from "react-i18next";
 
 export default function Popup({ title }) {
+  const { t } = useTranslation();
   return (
     <div>
       <Popover isLazy>
         <PopoverTrigger>
           <Button className="static bg-gradient-to-r from-green-600 to-green-700 px-5 py-3 text-sm rounded-lg">
-            Tecnologias
+            {t("Technologies")}
           </Button>
         </PopoverTrigger>
         <PopoverContent className="right-8 bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 text-white max-w-xs rounded-lg">

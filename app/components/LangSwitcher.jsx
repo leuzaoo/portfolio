@@ -33,6 +33,7 @@ export default function LangSwitcher() {
             alt={languageOption.name}
           />
           <span
+            className="font-bold"
             style={{
               fontWeight:
                 i18n.language === languageOption.value ? "bold" : "normal",

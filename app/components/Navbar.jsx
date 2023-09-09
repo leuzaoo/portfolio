@@ -4,7 +4,6 @@ import { useState } from "react";
 import Image from "next/image";
 
 import { Lobster } from "next/font/google";
-
 const lobster = Lobster({ weight: "400", subsets: ["latin"] });
 
 function DeviceNavBar({ open }) {

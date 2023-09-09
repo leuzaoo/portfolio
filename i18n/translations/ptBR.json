@@ -12,6 +12,13 @@
     "DealingCustomerPurchase": "Tratativa com o cliente, pós compra, conhecimento técnico, entre outros.",
     "DesignCreatives": "Design & Criativos",
     "ConstructionArtsConnectingAudience": "Construção de artes com objetivo em conectar-se com a audiência.",
-    "TellAboutNextProject": "Me conte sobre seu próximo projeto"
+    "TellAboutNextProject": "Me conte sobre seu próximo projeto",
+    "PortfolioDesc": "Realizei uma SPA para destacar as habilidades e realizações do cliente. Com objetivo de mostrar as experiências, habilidades e formações, como se fosse um currículo.",
+    "Technologies": "Tecnologias",
+    "SeeProject": "Ver projeto",
+    "EcommerceDesc": "A aplicação que mais investi tempo e que abriu a minha mente para a programação. Um comércio online. São duas aplicações, uma é externa ao usuário final e outro para o administrador cadastrar os produtos.",
+    "ProductCatalog": "Catálogo de Produtos",
+    "ProductCatalogDesc": "Uma plataforma onde através de uma Sheets do Google, a aplicação consulta os produtos, preços e especificações. A Sheets funciona como um banco de dados para essa aplicação.",
+    "LandingPageDesc": "Realizei uma landing page sobre uma empresa onde o forte dela é o laboratório de metrologia. A mesma trabalha com fabricação de peças e dispositivos para controles dimensionais, escaneamento de peças e impressões 3D."
   }
 }
