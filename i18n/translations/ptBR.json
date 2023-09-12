@@ -19,6 +19,7 @@
     "EcommerceDesc": "A aplicação que mais investi tempo e que abriu a minha mente para a programação. Um comércio online. São duas aplicações, uma é externa ao usuário final e outro para o administrador cadastrar os produtos.",
     "ProductCatalog": "Catálogo de Produtos",
     "ProductCatalogDesc": "Uma plataforma onde através de uma Sheets do Google, a aplicação consulta os produtos, preços e especificações. A Sheets funciona como um banco de dados para essa aplicação.",
-    "LandingPageDesc": "Realizei uma landing page sobre uma empresa onde o forte dela é o laboratório de metrologia. A mesma trabalha com fabricação de peças e dispositivos para controles dimensionais, escaneamento de peças e impressões 3D."
+    "LandingPageDesc": "Realizei uma landing page sobre uma empresa onde o forte dela é o laboratório de metrologia. A mesma trabalha com fabricação de peças e dispositivos para controles dimensionais, escaneamento de peças e impressões 3D.",
+    "BlogDesc": "Para aprofundar um pouco mais sobre backend, desevolvi um blog utilizando o Hygraph, uma plataforma de gerenciamento de conteúdo."
   }
 }

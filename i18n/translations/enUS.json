@@ -19,6 +19,7 @@
     "EcommerceDesc": "The application that I invested the most time in and that opened my mind to schedule. An online business. There are two applications, one is external to the end user and another for the administrator to register the products.",
     "ProductCatalog": "Product Catalog",
     "ProductCatalogDesc": "A platform where, through Google Sheets, the application consult products, prices and specifications. Sheets works as a database for this application.",
-    "LandingPageDesc": "I created a landing page about a company where its strong point is metrology laboratory. It works with the manufacture of parts and devices for dimensional controls, part scanning and 3D printing."
+    "LandingPageDesc": "I created a landing page about a company where its strong point is metrology laboratory. It works with the manufacture of parts and devices for dimensional controls, part scanning and 3D printing.",
+    "BlogDesc": "To delve a little deeper into the backend, I developed a blog using Hygraph, a content management platform."
   }
 }
