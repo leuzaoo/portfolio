@@ -53,6 +53,16 @@ export default function ProjectsPage() {
             <Popup title="React" />
           </div>
         </div>
+
+        <div>
+          <AboutProject title="Blog" description={t("BlogDesc")} />
+          <div className="mt-4 flex items-center justify-between md:justify-normal md:gap-10">
+            <a href="https://varstudy.vercel.app/" target="_blank">
+              <ButtonLink text={t("SeeProject")} />
+            </a>
+            <Popup title="React" />
+          </div>
+        </div>
       </div>
       <div className="pt-10">
         <Footer />
