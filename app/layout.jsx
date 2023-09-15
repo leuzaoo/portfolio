@@ -6,11 +6,6 @@ import "@/i18n";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Portolio | Leonardo Oliveira",
-  description: "Portfolio about Leonardo Oliveira.",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html>
