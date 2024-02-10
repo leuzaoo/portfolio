@@ -49,7 +49,10 @@ export default function ProjectsPage() {
             title="Landing Page"
             description={t("LandingPageDesc")}
           />
-          <div className="mt-4">
+          <div className="mt-4 flex items-center justify-between md:justify-normal md:gap-10">
+            <a href="https://eg-quality.vercel.app/" target="_blank">
+              <ButtonLink text={t("SeeProject")} />
+            </a>
             <Popup title="React" />
           </div>
         </div>
