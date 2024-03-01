@@ -37,7 +37,7 @@ export default function ProjectsPage() {
             description={t("ProductCatalogDesc")}
           />
           <div className="mt-4 flex items-center justify-between md:justify-normal md:gap-10">
-            <a href="https://aitrend.netlify.app/" target="_blank">
+            <a href="https://aitrend.vercel.app/" target="_blank">
               <ButtonLink text={t("SeeProject")} />
             </a>
             <Popup title="JavaScript, Vue & Tailwind." />
