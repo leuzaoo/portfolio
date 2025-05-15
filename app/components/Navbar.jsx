@@ -85,7 +85,7 @@ export default function Navbar() {
             <div className="bg-gradient-to-r from-green-500 to-green-600 bg-clip-text p-2 text-4xl text-transparent">
               <a href="/">
                 <p className={lobster.className}>
-                  portfolio<span className="text-pink-600">.</span>
+                  LCosta<span className="text-pink-600">.</span>
                 </p>
               </a>
             </div>

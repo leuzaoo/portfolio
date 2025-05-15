@@ -1,8 +1,8 @@
 "use client";
-import AboutMe from "./components/AboutMe";
-import Experiences from "./components/Experiences";
-import Footer from "./components/Footer";
 import LangSwitcher from "./components/LangSwitcher";
+import Experiences from "./components/Experiences";
+import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (

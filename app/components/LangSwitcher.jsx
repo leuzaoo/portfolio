@@ -1,7 +1,8 @@
-import us from "@/public/unitedstates-flag.svg";
-import br from "@/public/brazil-flag.svg";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
+
+import us from "@/public/unitedstates-flag.svg";
+import br from "@/public/brazil-flag.svg";
 
 const languageOption = [
   {
@@ -18,8 +19,9 @@ const languageOption = [
 
 export default function LangSwitcher() {
   const { i18n } = useTranslation();
+
   return (
-    <div className="flex gap-4 absolute right-10 top-24">
+    <div className="absolute right-10 top-24 flex gap-4">
       {languageOption.map((languageOption) => (
         <button
           key={languageOption.value}
