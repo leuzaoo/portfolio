@@ -4,7 +4,7 @@ import AboutProject from "./AboutProject";
 import ButtonLink from "./ButtonLink";
 import Popup from "./Popup";
 
-const ProjectInfo = ({ href, title, description, popUpTitle }) => {
+const ProjectInfo = ({ title, description, href, popUpTitle }) => {
   const { t } = useTranslation();
 
   return (
