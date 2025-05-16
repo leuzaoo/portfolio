@@ -17,9 +17,13 @@
     "Technologies": "Tecnologias",
     "SeeProject": "Ver projeto",
     "EcommerceDesc": "A aplicação que mais investi tempo e que abriu a minha mente para a programação. Um comércio online. São duas aplicações, uma é externa ao usuário final e outro para o administrador cadastrar os produtos.",
+    "AtelierTitle": "Ecommerce Ateliê",
+    "Ecommerce2Desc": "Com este aplicativo, aprendi muitas coisas novas. Nos últimos anos, passei um bom tempo aprendendo sobre backend e este projeto me ajudou a entender como ele funciona.",
     "ProductCatalog": "Catálogo de Produtos",
     "ProductCatalogDesc": "Uma plataforma onde através de uma Sheets do Google, a aplicação consulta os produtos, preços e especificações. A Sheets funciona como um banco de dados para essa aplicação.",
     "LandingPageDesc": "Realizei uma landing page sobre uma empresa onde o forte dela é o laboratório de metrologia. A mesma trabalha com fabricação de peças e dispositivos para controles dimensionais, escaneamento de peças e impressões 3D.",
-    "BlogDesc": "Para aprofundar um pouco mais sobre backend, desevolvi um blog utilizando o Hygraph, uma plataforma de gerenciamento de conteúdo."
+    "BlogDesc": "Para aprofundar um pouco mais sobre backend, desevolvi um blog utilizando o Hygraph, uma plataforma de gerenciamento de conteúdo.",
+    "FoodOrderingTitle": "Entrega de Comida para Pet",
+    "FoodOrderingDesc": "Feito para uma cozinha que faz comidas para cachorros, o usuário final poderá realizar o pedido no site e será redicionado ao WhatsApp após finalizar seu pedido."
   }
 }
