@@ -1,21 +1,42 @@
 "use client";
-import LangSwitcher from "../components/LangSwitcher";
-import AboutProject from "../components/AboutProject";
-import ButtonLink from "../components/ButtonLink";
-import Popup from "../components/Popup";
-
 import { useTranslation } from "react-i18next";
+
+import AboutProject from "../components/AboutProject";
+import LangSwitcher from "../components/LangSwitcher";
+import ButtonLink from "../components/ButtonLink";
 import Footer from "../components/Footer";
+import Popup from "../components/Popup";
 
 export default function ProjectsPage() {
   const { t } = useTranslation();
+
   return (
     <>
-      <div className="pb-10 border-b border-neutral-600 px-8 w-full flex flex-col lg:items-center lg:mx-auto">
+      <div className="flex w-full flex-col border-b border-neutral-600 px-8 pb-10 lg:mx-auto lg:items-center">
         <LangSwitcher />
         <div className="mt-10 lg:mt-20 lg:max-w-2xl">
-          <AboutProject title="Portfolio" description={t("PortfolioDesc")} />
+          <AboutProject
+            title={t("FoodOrderingTitle")}
+            description={t("FoodOrderingDesc")}
+          />
+          <div className="mt-4 flex items-center justify-between md:justify-normal md:gap-10">
+            <a href="https://focinhogelado.netlify.app/" target="_blank">
+              <ButtonLink text={t("SeeProject")} />
+            </a>
+            <Popup title="React, ContextAPI & Tailwind." />
+          </div>
 
+          <div>
+            <AboutProject
+              title={t("AtelierTitle")}
+              description={t("Ecommerce2Desc")}
+            />
+            <div className="mt-4">
+              <Popup title="Laravel, Vue & vitest." />
+            </div>
+          </div>
+
+          <AboutProject title="Portfolio" description={t("PortfolioDesc")} />
           <div className="mt-4 flex items-center justify-between md:justify-normal md:gap-10">
             <a href="https://yhwconsulting.netlify.app/" target="_blank">
               <ButtonLink text={t("SeeProject")} />

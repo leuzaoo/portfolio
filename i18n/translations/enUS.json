@@ -17,9 +17,13 @@
     "Technologies": "Technologies",
     "SeeProject": "Project",
     "EcommerceDesc": "The application that I invested the most time in and that opened my mind to schedule. An online business. There are two applications, one is external to the end user and another for the administrator to register the products.",
+    "AtelierTitle": "Atelier Ecommerce",
+    "Ecommerce2Desc": "This APP I've learned a lot of new things. At the last years I've spend a lot of time, learning about the backend, and this project helped me to understand how the backend works.",
     "ProductCatalog": "Product Catalog",
     "ProductCatalogDesc": "A platform where, through Google Sheets, the application consult products, prices and specifications. Sheets works as a database for this application.",
     "LandingPageDesc": "I created a landing page about a company where its strong point is metrology laboratory. It works with the manufacture of parts and devices for dimensional controls, part scanning and 3D printing.",
-    "BlogDesc": "To delve a little deeper into the backend, I developed a blog using Hygraph, a content management platform."
+    "BlogDesc": "To delve a little deeper into the backend, I developed a blog using Hygraph, a content management platform.",
+    "FoodOrderingTitle": "Pet Food Delivery",
+    "FoodOrderingDesc": "Made for a kitchen that makes dog food, the end user will be able to place the order on the website and will be redirected to WhatsApp after completing their order."
   }
 }
